@@ -21,7 +21,13 @@ if __name__ == '__main__':
     print("-----nouvelle liste-----")
     
     Newlist=[]
+    
+    print("-----les elements nouvelle liste-----")
     for m in Months :
             if 'a' in m:
               Newlist.append(m)  
+    print(Newlist)
+    
+    print("-----ajouter un element a la fin de la liste -----")
+    Newlist.append("End")
     print(Newlist)
