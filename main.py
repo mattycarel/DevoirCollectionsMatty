@@ -61,7 +61,11 @@ if __name__ == '__main__':
     
     print("------QUESTION II-----")
     
-    Numbers = ("1", "2", "3","4","5","6","7","8","9","10")
+    Numbers = (1,2,3,4,5,3,7,8,9,10)
+    
+    print("-----Afficher le nombre de fois la valeur 3 apparait dans la tuple----")
+    count = Numbers.count(3)
+    print(count)       
     
     
     
