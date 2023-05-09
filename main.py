@@ -34,4 +34,10 @@ if __name__ == '__main__':
     
     print("-----ajouter un element a l'index num 2-----")
     print(Newlist[2])
+    
+    print("-----supprimer l'element num 3-----")
+    Newlist.pop(3)
+    print(Newlist)
+    
+    
      
