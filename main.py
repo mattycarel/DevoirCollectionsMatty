@@ -9,7 +9,7 @@ if __name__ == '__main__':
         "juillet",
         "aout",
         "septembre",
-        "oc,,,tobre"    
+        "octobre"    
     ]
     print("-----les elements de la liste-----")
     print(Months)
@@ -91,6 +91,19 @@ if __name__ == '__main__':
     print(Numbers)
     
     print("-----QUESTION III-----")
+    
+    Players={
+        "Curry",
+        "Lebron",
+        "Giannis" ,
+        "Harden",
+        "Kid",
+        "Parker",
+        "Irivng",
+        "Poole",
+        "Savoka",
+        "Yao"   
+    }
     
           
     
