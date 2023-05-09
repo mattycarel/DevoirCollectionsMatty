@@ -139,6 +139,9 @@ if __name__ == '__main__':
     for i in Person.keys():
         print(i)
     
+    print("-------Afficher seulement les valeurs----")
+    for j in Person.values():
+        print(j)
           
     
     
