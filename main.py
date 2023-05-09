@@ -1,15 +1,15 @@
 if __name__ == '__main__':
     Months=[
-        "Janvier" ,
-        "Fevrier",
-        "Mars",
+        "janvier" ,
+        "fevrier",
+        "mars",
         "avril",
-        "Mai",
-        "Juin",
-        "Juillet",
-        "Aout",
-        "Septembre",
-        "Octobre"    
+        "mai",
+        "juin",
+        "juillet",
+        "aout",
+        "septembre",
+        "oc,,,tobre"    
     ]
     print("-----les elements de la liste-----")
     print(Months)
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     print(Newlist)
     
     print("-----ajouter un element a la fin de la liste -----")
-    Newlist.append("End")
+    Newlist.append("end")
     print(Newlist)
     
     print("-----ajouter un element a l'index num 2-----")
@@ -41,6 +41,10 @@ if __name__ == '__main__':
     
     print("-----supprimer l'element a l'index  num 3-----")
     Newlist.pop(3)
+    print(Newlist)
+    
+    print("-----Ordonner la liste-----")
+    Newlist.sort()
     print(Newlist)
     
     
