@@ -142,9 +142,12 @@ if __name__ == '__main__':
     print("-------Afficher seulement les valeurs----")
     for j in Person.values():
         print(j)
+        
+    print("-------Afficher les cles et les valeurs sous le format: Cle: Valeur---")
+    for v in Person.items():
+        print(v)
+        
+        
           
     
     
-    
-    
-     
