@@ -73,6 +73,13 @@ if __name__ == '__main__':
     print("----Ordonner la tuple-----")
     s=sorted(Numbers)
     print(s)
+    
+    print("----Ajouter un element a la fin de la tuple-----")
+    l=list(Numbers)
+    l.append(100)
+    Numbers=tuple(l)
+    print(Numbers)
+    
           
     
     
