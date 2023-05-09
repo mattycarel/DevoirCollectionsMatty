@@ -80,6 +80,12 @@ if __name__ == '__main__':
     Numbers=tuple(l)
     print(Numbers)
     
+    print("----Ajouter un element a l’index numero 3-----")
+    n=list(Numbers)
+    n.insert(3, 500)
+    Numbers=tuple(n)
+    print(Numbers)
+    
           
     
     
