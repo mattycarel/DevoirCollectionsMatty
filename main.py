@@ -113,6 +113,10 @@ if __name__ == '__main__':
     Players.remove("Matty")
     print(Players)
     
+    print("------Supprimer le set------")
+    del Players
+    print(Players)
+    
           
     
     
