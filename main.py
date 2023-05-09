@@ -51,5 +51,9 @@ if __name__ == '__main__':
     Newlist.sort(reverse=True)
     print(Newlist)
     
+    print("-----vider la liste-----")
+    Newlist.clear()
+    print(Newlist)
+    
     
      
