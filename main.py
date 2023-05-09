@@ -47,5 +47,9 @@ if __name__ == '__main__':
     Newlist.sort()
     print(Newlist)
     
+    print("-----afficher la liste inverse-----")
+    Newlist.sort(reverse=True)
+    print(Newlist)
+    
     
      
