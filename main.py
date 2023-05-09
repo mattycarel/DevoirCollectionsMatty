@@ -15,7 +15,7 @@ if __name__ == '__main__':
     print(Months)
     
     print("-----Change Le contenu de l'element num 5-----")
-    Months[5]="Matty"
+    Months[6]="Matty"
     print(Months)
     
     print("-----nouvelle liste-----")
@@ -36,6 +36,10 @@ if __name__ == '__main__':
     print(Newlist[2])
     
     print("-----supprimer l'element num 3-----")
+    Newlist.pop(4)
+    print(Newlist)
+    
+    print("-----supprimer l'element a l'index  num 3-----")
     Newlist.pop(3)
     print(Newlist)
     
