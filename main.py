@@ -135,6 +135,10 @@ if __name__ == '__main__':
     print("-------Afficher le dictionnaire----")
     print(Person)
     
+    print("-------Afficher seulement les cles----")
+    for i in Person.keys():
+        print(i)
+    
           
     
     
