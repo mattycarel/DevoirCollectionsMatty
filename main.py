@@ -31,3 +31,7 @@ if __name__ == '__main__':
     print("-----ajouter un element a la fin de la liste -----")
     Newlist.append("End")
     print(Newlist)
+    
+    print("-----ajouter un element a l'index num 2-----")
+    print(Newlist[2])
+     
