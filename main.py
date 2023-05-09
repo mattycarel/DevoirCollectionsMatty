@@ -120,8 +120,20 @@ if __name__ == '__main__':
     print("----QUESTION IV-----")
     
     Person={
-        
+        "Nom" : "Bizindavyi",
+        "Prenom" : "Joe Matty Carel",
+        "Nationalite" : "Burundaise",
+        "Age" : "24",
+        "Tel" : "61989328",
+        "Profession" : "Etudiant",
+        "Taille" : "1,88cm",
+        "Email" : "Joemattycarelb@gmail.com",
+        "Universite" : "ULT",
+        "Faculte" : "Informatique"    
     }
+    
+    print("-------Afficher le dictionnaire----")
+    print(Person)
     
           
     
