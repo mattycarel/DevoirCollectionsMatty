@@ -144,8 +144,14 @@ if __name__ == '__main__':
         print(j)
         
     print("-------Afficher les cles et les valeurs sous le format: Cle: Valeur---")
-    for v in Person.items():
-        print(v)
+    for c,v in Person.items():
+        print(c ,":",v)
+    
+    print("-------Supprimer l'element a la cle numero 2---")
+    Person.pop("Prenom")
+    print(Person)
+    
+    
         
         
           
