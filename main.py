@@ -109,6 +109,10 @@ if __name__ == '__main__':
     Players.add("Matty")
     print(Players)
     
+    print("------Supprimer un element------")
+    Players.remove("Matty")
+    print(Players)
+    
           
     
     
