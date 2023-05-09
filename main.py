@@ -86,6 +86,10 @@ if __name__ == '__main__':
     Numbers=tuple(n)
     print(Numbers)
     
+    print("----Afficher la nouvelle tuple-----")
+   
+    print(Numbers)
+    
           
     
     
