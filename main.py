@@ -115,9 +115,13 @@ if __name__ == '__main__':
     
     print("------Supprimer le set------")
     del Players
-    print(Players)
+    
     
     print("----QUESTION IV-----")
+    
+    Person={
+        
+    }
     
           
     
