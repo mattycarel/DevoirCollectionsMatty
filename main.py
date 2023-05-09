@@ -55,5 +55,11 @@ if __name__ == '__main__':
     Newlist.clear()
     print(Newlist)
     
+    print("-----supprimer la liste-----")
+    del Newlist
+    
+    
+  
+    
     
      
