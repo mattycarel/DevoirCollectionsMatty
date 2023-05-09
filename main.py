@@ -3,7 +3,7 @@ if __name__ == '__main__':
         "Janvier" ,
         "Fevrier",
         "Mars",
-        "Avril",
+        "avril",
         "Mai",
         "Juin",
         "Juillet",
@@ -17,3 +17,8 @@ if __name__ == '__main__':
     print("-----Change Le contenu de l'element num 5-----")
     Months[5]="Matty"
     print(Months)
+    
+    print("-----nouvelle liste-----")
+    
+    Newlist=[]
+    
