@@ -105,6 +105,10 @@ if __name__ == '__main__':
         "Yao"   
     }
     
+    print("------Ajouter un element------")
+    Players.add("Matty")
+    print(Players)
+    
           
     
     
