@@ -65,7 +65,11 @@ if __name__ == '__main__':
     
     print("-----Afficher le nombre de fois la valeur 3 apparait dans la tuple----")
     count = Numbers.count(3)
-    print(count)       
+    print(count) 
+    
+    print("----Afficher le contenu de l'element numero 5-----")
+    print(Numbers[5-1])
+          
     
     
     
