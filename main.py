@@ -11,3 +11,5 @@ if __name__ == '__main__':
         "Septembre",
         "Octobre"    
     ]
+    print("-----les elements de la liste-----")
+    print(Months)
