@@ -61,7 +61,7 @@ if __name__ == '__main__':
     
     print("------QUESTION II-----")
     
-    Numbers = (1,2,3,4,5,3,7,8,9,10)
+    Numbers = (1,12,3,15,5,3,7,8,9,10)
     
     print("-----Afficher le nombre de fois la valeur 3 apparait dans la tuple----")
     count = Numbers.count(3)
@@ -69,6 +69,10 @@ if __name__ == '__main__':
     
     print("----Afficher le contenu de l'element numero 5-----")
     print(Numbers[5-1])
+    
+    print("----Ordonner la tuple-----")
+    s=sorted(Numbers)
+    print(s)
           
     
     
