@@ -159,6 +159,10 @@ if __name__ == '__main__':
     Person["BasketBall_Team"]="New Star"
     print(Person)
     
+    print("-------Creer une copie du dictionnaire---")
+    copy=Person.copy()
+    print(copy)
+    
     
     
     
