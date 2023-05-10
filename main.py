@@ -151,6 +151,10 @@ if __name__ == '__main__':
     Person.pop("Prenom")
     print(Person)
     
+    print("-------Afficher l'element de la cle numero 5---")
+    num_5 = Person["Tel"]
+    print(num_5)
+    
     
     
     
