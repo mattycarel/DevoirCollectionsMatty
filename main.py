@@ -155,6 +155,10 @@ if __name__ == '__main__':
     num_5 = Person["Tel"]
     print(num_5)
     
+    print("-------Ajouter un nouvel element---")
+    Person["BasketBall_Team"]="New Star"
+    print(Person)
+    
     
     
     
