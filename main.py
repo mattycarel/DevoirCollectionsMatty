@@ -163,6 +163,10 @@ if __name__ == '__main__':
     copy=Person.copy()
     print(copy)
     
+    print("-------Afficher les nouveaux elements---")
+    print(Person)
+    
+    
     
     
     
